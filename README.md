@@ -22,7 +22,7 @@ Your prefix may contain commas in order to create multiple fields in
 the CSV.
 
 To change the location of directories where tarballs are untarred, use the
-`d <directory>` option.
+`-d <directory>` option.
 
 ## How to use the CSV output
 
@@ -38,7 +38,7 @@ To change the location of directories where tarballs are untarred, use the
 The script will create numbered subdirectories under the current
 working directory, starting with "1" and extract the tarballs into
 these numbered directories in the order you specified. To use a different
-directory than the current working directory, use the -d option.
+directory than the current working directory, use the `-d` option.
 
 **BUG:** There is a bug that causes the script to mix up results if the
 numbered subdirectories already exist and already contain files from
