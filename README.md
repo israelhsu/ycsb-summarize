@@ -17,7 +17,7 @@ The script will output the performance numbers in the following format:
 `<run-number>,<benchmark>,<metric-name>,<value>`.
 
 To insert additional descriptive fields in the output, use the `-p <prefix>`
-option. Your prefix will appear between `<run-number>` and `<prefix>`.
+option. Your prefix will appear between `<run-number>` and `<benchmark>`.
 Your prefix may contain commas in order to create multiple fields in
 the CSV.
 
