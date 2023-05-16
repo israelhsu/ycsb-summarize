@@ -45,3 +45,10 @@ numbered subdirectories already exist and already contain files from
 previous invocations of this script. Make sure that your working directory
 does not have the numbered subdirectories before running the script.
 
+## TODO
+* Prevent mixing of results from multiple runs of the script.
+* Accomodate DSI runs on local machines and Atlas, which deliver the
+actual output directories (not tarball'd).
+* Optionally delete untarred files at the end of the script.
+* Generalize for output of various DSI benchmarks.
+* Automate creation of spreadsheets.
